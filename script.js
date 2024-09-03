@@ -4,12 +4,12 @@ function startCountdown() {
     let messageElement = document.getElementById('message');
     let timeLeft = 20; // 20 seconds countdown
 
-    countdownElement.textContent = ` Two to Twenty ${timeLeft}`;
+    countdownElement.textContent = ` Two to Twenty: ${timeLeft}`;
     messageElement.textContent = '';
 
     let countdownTimer = setInterval(() => {
         timeLeft -= 1;
-        countdownElement.textContent = `Two to Twenty ${timeLeft}`;
+        countdownElement.textContent = `Two to Twenty: ${timeLeft}`;
 
         if (timeLeft <= 0) {
             clearInterval(countdownTimer);
