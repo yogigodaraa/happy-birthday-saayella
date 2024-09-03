@@ -1,3 +1,4 @@
+// Function to start the countdown
 function startCountdown() {
     let countdownElement = document.getElementById('countdown');
     let messageElement = document.getElementById('message');
@@ -19,7 +20,11 @@ function startCountdown() {
     }, 1000); // Update every second
 }
 
+// Function to play the birthday song
 function playSound() {
     const audio = new Audio('happy_birthday_song.mp3'); // Ensure the music file is named correctly and in the same directory
     audio.play();
 }
+
+// Start the countdown automatically when the page loads
+window.onload = startCountdown;
