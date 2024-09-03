@@ -4,7 +4,7 @@ function startCountdown() {
     let messageElement = document.getElementById('message');
     let timeLeft = 20; // 20 seconds countdown
 
-    countdownElement.textContent = `Why you look exactly same as childhood? ${timeLeft}`;
+    countdownElement.textContent = `Countdown: ${timeLeft}`;
     messageElement.textContent = '';
 
     let countdownTimer = setInterval(() => {
