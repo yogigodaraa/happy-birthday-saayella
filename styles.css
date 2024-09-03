@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-image: url('background.jpg'); /* Add this line to set the background image */
+    background-size: cover; /* Ensures the background covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +13,7 @@ body {
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background to make text readable */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
