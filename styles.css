@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('background.jpeg'); /* Ensure the filename matches exactly */
-    background-size: cover; /* Ensures the background covers the entire screen */
+    background-size: contain; /* Ensures the entire image fits within the screen */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the background from repeating */
-    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-color: #000; /* Adds a background color to fill gaps around the image */
     display: flex;
     justify-content: center;
     align-items: center;
