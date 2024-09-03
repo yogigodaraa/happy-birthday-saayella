@@ -9,7 +9,7 @@ function startCountdown() {
 
     let countdownTimer = setInterval(() => {
         timeLeft -= 1;
-        countdownElement.textContent = `Countdown: ${timeLeft}`;
+        countdownElement.textContent = `${timeLeft}`;
 
         if (timeLeft <= 0) {
             clearInterval(countdownTimer);
