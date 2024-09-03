@@ -20,6 +20,6 @@ function startCountdown() {
 }
 
 function playSound() {
-    const audio = new Audio('happy_birthday_song.mp3');
+    const audio = new Audio('happy_birthday_song.mp3'); // Ensure the music file is named correctly and in the same directory
     audio.play();
 }
